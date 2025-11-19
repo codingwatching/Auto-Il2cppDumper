@@ -3,6 +3,10 @@ Il2CppDumper without Magisk/Zygisk, dump il2cpp data at runtime, can bypass prot
 
 This project is based on BrianGIG [Auto-Il2cppDumper](https://github.com/BryanGIG/Auto-Il2cppDumper) which I continue to maintain it
 
+# NO support
+
+Since many games are using many different protections and encryptions, there will be no help & support of this project, therefore the issue section is closed. Do not under any circumstances try to reach me privately or create unrelated issues on my other projects.
+
 # How to use
 Download pre-compiled libs [HERE](https://github.com/AndnixSH/Auto-Il2cppDumper/releases) and follow steps below
 
@@ -78,10 +82,10 @@ Like
 - If there is no dump.cs, check logcat using Matlog or Android Studio. Game usually crash or freeze if dump fails
 
 ### Obfuscated names
-Names can't be deobfuscated. Once they are obfuscated/renamed, it can't be reverted back to original, the APK doesn't even have a brain to memorize all original names. Instead, try find older version without obfuscation, or debug the game using GG, frida, gdb, lldb or others. If you can't do any of these, maybe guess the functions and try one by one :P
+Names can't be deobfuscated. Once they are obfuscated/renamed, it can't be reverted back to original, the game doesn't even kept any original names which makes obfuscation very useful. Instead, try to find older version without obfuscation, or debug the game using GG, frida, gdb, lldb or others. If you can't do any of these, maybe guess the functions and try one by one? :P
 
-### Bypass more games?
-No idea since bypassing is not my thing, but if you know, feel free to make a pull request. For now, Issues is closed
+### Bypassing protection?
+Bypassing is not my thing, but if you know, feel free to make a pull request.
 
 # Usage (If you want to complie by yourself)
 
