@@ -5,7 +5,7 @@
 #ifndef AUTO_IL2CPPDUMPER_CONFIG_H
 #define AUTO_IL2CPPDUMPER_CONFIG_H
 
-// Try increase sleep time if having issues with the game. Decrease sleep time if anti-cheat detection it earlier
+// Try increase sleep time if having issues with the game. Decrease sleep time if anti-cheat triggering earlier
 #define Sleep 2
 
 // Uncomment for fake lib mode
